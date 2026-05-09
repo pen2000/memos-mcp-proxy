@@ -1,0 +1,11 @@
+{
+  "name": "memos-mcp-proxy",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "http-proxy-middleware": "^3.0.0"
+  }
+}
