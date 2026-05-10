@@ -6,7 +6,7 @@ const { MEMOS_URL, MEMOS_PAT, PORT = 3000 } = process.env;
 const app = express();
 
 app.use(
-  "/mcp",
+  "/",
   createProxyMiddleware({
     target: MEMOS_URL,
     changeOrigin: true,
